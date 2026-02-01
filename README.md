@@ -45,17 +45,8 @@ El proyecto sigue una estructura de **Separación por Capas**:
 
 ## 📂 Estructura del proyecto.
 
-Alkewallet (Nombre del Proyecto)
-└── src
-    ├── principal      <-- Capa de Interfaz (Usuario)
-    │   └── Principal.java
-    ├── modelo         <-- Capa de Lógica de Negocio (Datos)
-    │   ├── CuentaBase.java  (Clase Abstracta)
-    │   └── Cuenta.java      (Clase Hija)
-    ├── servicio       <-- Capa de Utilidades (Herramientas)
-    │   └── Conversor.java
-    └── test           <-- Capa de Calidad (Pruebas)
-        └── CuentaTest.java
+<img width="670" height="255" alt="Estructura" src="https://github.com/user-attachments/assets/27d78866-f8cb-44a8-9191-99a089a4ee21" />
+
 
 
 ## 🧪 Pruebas Unitarias
