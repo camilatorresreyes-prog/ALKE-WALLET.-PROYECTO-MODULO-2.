@@ -41,6 +41,23 @@ El proyecto sigue una estructura de **Separación por Capas**:
 
 <img width="3879" height="2365" alt="Duck Fish Zebra Flow Model-2026-02-01-213533" src="https://github.com/user-attachments/assets/01335e8d-5acd-454b-a56e-b1e9715ba0f1" />
 
+---
+
+## 📂 Estructura del proyecto.
+
+Alkewallet (Nombre del Proyecto)
+└── src
+    ├── principal      <-- Capa de Interfaz (Usuario)
+    │   └── Principal.java
+    ├── modelo         <-- Capa de Lógica de Negocio (Datos)
+    │   ├── CuentaBase.java  (Clase Abstracta)
+    │   └── Cuenta.java      (Clase Hija)
+    ├── servicio       <-- Capa de Utilidades (Herramientas)
+    │   └── Conversor.java
+    └── test           <-- Capa de Calidad (Pruebas)
+        └── CuentaTest.java
+
+
 ## 🧪 Pruebas Unitarias
 Se implementaron pruebas automáticas utilizando JUnit 5 para asegurar la integridad de los datos:
 
