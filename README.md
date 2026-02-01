@@ -64,11 +64,67 @@ Se implementaron pruebas automáticas utilizando JUnit 5 para asegurar la integr
 * Documentación: Mermaid.js
 * Control de Versiones: Git / GitHub
 
+
+3. Diagrama de Flujo de Datos
+Este diagrama ayuda a explicar cómo viaja la información desde que el usuario presiona una tecla hasta que se guarda en el archivo.
+
+4. Guía de Instalación y Ejecución
+Esto es vital para que el profesor sepa cómo probar tu trabajo:
+
+Requisitos: Tener instalado Java 17 y Eclipse IDE.
+
+Importación: * Abrir Eclipse.
+
+File > Import > General > Existing Projects into Workspace.
+
+Seleccionar la carpeta del proyecto.
+
+Ejecución:
+
+Clic derecho en Principal.java > Run As > Java Application.
+
+Pruebas:
+
+Clic derecho en CuentaTest.java > Run As > JUnit Test.
+
 ---
 
 👤 Autor
 Camila Fernanda Torres Reyes, estudiante curso Desarrollo de Aplicaciones Móviles Android Trainee.
 
+📚 Fuentes de Información y Referencias
+Para la realización de este proyecto, se consultaron las siguientes fuentes técnicas y académicas:
+
+1. Documentación Oficial de Java (Oracle):
+  * Se utilizó como guía principal para la implementación de Clases Abstractas, Herencia y el uso de la clase ArrayList.
+  * Referencia: Java SE Documentation.
+
+2. Documentación de JUnit 5:
+
+  *  Fuente clave para estructurar las pruebas unitarias y entender el uso de las aserciones (assertEquals).
+  *  Referencia: JUnit 5 User Guide.
+
+3. Estándares de Diseño de Software (POO):
+
+  * Se aplicaron los principios de Encapsulamiento y Abstracción basados en la bibliografía clásica de Programación Orientada a Objetos.
+
+4. Soporte de Inteligencia Artificial (Gemini):
+
+  - Se utilizó IA de Google (Gemini) como tutor y colaborador técnico para:
+  *  Refinar la estructura de los paquetes (principal, modelo, servicio).
+  *  Generar diagramas en formato Mermaid para la documentación técnica.
+  *  Revisar la lógica de negocio del límite diario de retiro.
+
+***Nota: La IA actuó como una herramienta de guía y corrección, mientras que la implementación y lógica final fue implementada por la autora del proyecto***
+
+5. Mermaid.js Documentation:
+
+  *  Para la creación del diagrama de clases UML integrado en el README.
+
+6. Clases sincrónicas del curso:
+
+   * Atención a clases y realización de ejercicios a base del Github del curso
+   * https://github.com/patricioyaneza/Android2025_G1/tree/main/Modulo%202
 ---
 
 ## 🎓NOTAS
