@@ -1,6 +1,6 @@
 # 💳 Alke Wallet: Sistema de Billetera Digital
 
-¡Bienvenido a **Alkewallet**! Esta es una aplicación robusta de consola desarrollada en **Java**. El proyecto simula el funcionamiento de una billetera virtual, permitiendo la gestión de fondos, seguridad mediante PIN y conversión de divisas en tiempo real.
+¡Bienvenido a **Alke Wallet**! Esta es una aplicación robusta de consola desarrollada en **Java**. El proyecto simula el funcionamiento de una billetera virtual, permitiendo la gestión de fondos, seguridad mediante PIN y conversión de divisas en tiempo real.
 
 ---
 
@@ -89,10 +89,12 @@ Clic derecho en CuentaTest.java > Run As > JUnit Test.
 
 ---
 
-👤 Autor
+## 👤 Autor
 Camila Fernanda Torres Reyes, estudiante curso Desarrollo de Aplicaciones Móviles Android Trainee.
 
-📚 Fuentes de Información y Referencias
+---
+
+## 📚 Fuentes de Información y Referencias
 Para la realización de este proyecto, se consultaron las siguientes fuentes técnicas y académicas:
 
 1. Documentación Oficial de Java (Oracle):
@@ -125,6 +127,7 @@ Para la realización de este proyecto, se consultaron las siguientes fuentes té
 
    * Atención a clases y realización de ejercicios a base del Github del curso
    * https://github.com/patricioyaneza/Android2025_G1/tree/main/Modulo%202
+     
 ---
 
 ## 🎓NOTAS
