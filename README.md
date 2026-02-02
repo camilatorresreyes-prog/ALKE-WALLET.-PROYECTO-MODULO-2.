@@ -49,18 +49,25 @@ El proyecto sigue una estructura de **Separación por Capas**:
 
 
 ## 🧪 Pruebas Unitarias
-Se implementaron pruebas automáticas utilizando JUnit 5 para asegurar la integridad de los datos:
+Se implementaron pruebas automáticas utilizando JUnit 6 para asegurar la integridad de los datos:
 
-✅ Validación de depósitos correctos.
-✅ Bloqueo de retiros que exceden el saldo disponible.
-✅ Validación del límite diario de retiro ($200.000).
-✅ Precisión en la conversión de moneda CLP/USD.
+  1. CuentaTest.java (Lógica de Negocio):
+ * Verifica que se pueda depositar y retirar.
+ * Lo más importante: Prueba que el límite de $200.000 funcione (si intentas sacar más, el saldo no debe cambiar).
+
+ 2. ConversorTest.java (Servicio y Matemática):
+ * Verifica que la multiplicación y división de CLP a USD sea exacta. 
+ * Asegura que el método static funcione sin problemas.
+
+3. CuentaBaseTest.java (Herencia e Interfaz):
+* Verifica que los datos del titular y el PIN se guarden correctamente en la superclase.
+* Confirma que la clase hija implemente correctamente los métodos de la Interface Operaciones.
 
 ## 🛠️ Tecnologías Utilizadas:
 
 * Lenguaje: Java 25.0.1
 * IDE: Eclipse IDE
-* Gestión de Pruebas: JUnit 5
+* Gestión de Pruebas: JUnit 6
 * Documentación: Mermaid.js
 * Control de Versiones: Git / GitHub
 
