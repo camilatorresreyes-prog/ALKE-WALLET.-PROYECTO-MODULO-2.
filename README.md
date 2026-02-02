@@ -13,7 +13,6 @@ El objetivo principal es demostrar el dominio de los pilares de la **Programaci�
 ## 🚀 Funcionalidades Principales:
 
 - **Gestión de Cuentas:** Creación de cuentas con titular y saldo inicial.
-- **Seguridad:** Acceso restringido mediante PIN de seguridad.
 - **Operaciones Financieras:** Depósitos y retiros en Pesos Chilenos (CLP).
 - **Control de Riesgo:** Límite de retiro diario automatizado de **$200.000 CLP**.
 - **Conversión de Divisas:** Consulta de saldo equivalente en Dólares (USD) mediante un servicio dedicado.
@@ -60,7 +59,8 @@ Se implementaron pruebas automáticas utilizando JUnit 5 para asegurar la integr
 ## 🛠️ Tecnologías Utilizadas:
 
 * Lenguaje: Java 25.0.1
-* IDE: Eclipse IDEGestión de Pruebas: JUnit 5
+* IDE: Eclipse IDE
+* Gestión de Pruebas: JUnit 5
 * Documentación: Mermaid.js
 * Control de Versiones: Git / GitHub
 
