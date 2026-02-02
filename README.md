@@ -117,7 +117,7 @@ Para la realización de este proyecto, se consultaron las siguientes fuentes té
   *  Generar diagramas en formato Mermaid para la documentación técnica.
   *  Revisar la lógica de negocio del límite diario de retiro.
 
-***Nota: La IA actuó como una herramienta de guía y corrección, mientras que la implementación y lógica final fue implementada por la autora del proyecto***
+***Nota: La IA actuó como una herramienta de guía y corrección, mientras que la implementación y lógica final fue implementada por la autora del proyecto***.
 
 5. Mermaid.js Documentation:
 
